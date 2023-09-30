@@ -30,3 +30,7 @@ h2 {
     max-width: 1200px !important;
   }
 }
+
+.active {
+  color: #a10000;
+}
