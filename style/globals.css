@@ -34,3 +34,58 @@ h2 {
 .active {
   color: #a10000;
 }
+
+/* ------------------------------------------ */
+.text_bg_red {
+  background-image: url(/images/text_bg_red.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: max-content;
+  padding: 6px 50px;
+}
+
+.primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 12px 25px;
+  background: #fff;
+  color: #222;
+  font-weight: 600;
+  position: relative;
+}
+
+.primary-btn svg {
+  font-size: 20px;
+  color: #a10000;
+}
+
+.primary-btn::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.4s;
+  border: 1px solid hsla(0, 0%, 100%, 0.362);
+  left: 12px;
+  top: -12px;
+}
+
+.primary-btn:hover {
+  color: #a10000;
+}
+.primary-btn:hover::after {
+  border: 1px solid #fff;
+  left: 0;
+  top: 0;
+}
+
+/* -------Hero --------------*/
+.hero_wrap {
+  background-image: linear-gradient(to right, #00000003, #000),
+    url(/images/hero/hero2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

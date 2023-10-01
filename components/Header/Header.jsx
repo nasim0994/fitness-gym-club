@@ -7,7 +7,7 @@ import { FiSettings } from "react-icons/fi";
 export default function Header() {
   return (
     <header className="bg-accent py-4 text-base-100">
-      <div className="w-[90%] 2xl:w-[1500px] mx-auto">
+      <div className="w-[90%] 2xl:w-[1400px] mx-auto">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image
