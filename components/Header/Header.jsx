@@ -3,6 +3,7 @@ import Link from "next/link";
 import Menu from "./Menu";
 import { VscAccount } from "react-icons/vsc";
 import { FiSettings } from "react-icons/fi";
+import { BiSolidPlusSquare } from "react-icons/bi";
 
 export default function Header() {
   return (
@@ -25,14 +26,20 @@ export default function Header() {
             </ul>
           </nav>
 
-          <div>
-            <button>
+          <div className="flex gap-4 items-center">
+            <Link
+              href=""
+              className="text-[21px] hover:text-primary duration-300"
+            >
               <VscAccount />
-            </button>
-            <button>
+            </Link>
+            <button className="text-xl hover:text-primary duration-300">
               <FiSettings />
             </button>
-            <button>Join now</button>
+            <Link href="" className="header_btn">
+              <BiSolidPlusSquare />
+              JOIN CLASS NOW
+            </Link>
           </div>
         </div>
       </div>

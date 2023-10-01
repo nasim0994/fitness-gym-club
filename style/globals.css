@@ -82,6 +82,37 @@ h2 {
   top: 0;
 }
 
+/*---------------- Header -------------------*/
+header nav ul li a {
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #a10000;
+}
+.header_btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+.header_btn svg {
+  font-size: 24px;
+  color: #a10000;
+  transition: all 0.5s ease;
+}
+
+.header_btn:hover svg {
+  transform: rotate(180deg);
+  color: #fff;
+}
+
 /* -------Hero --------------*/
 .hero_wrap {
   background-image: linear-gradient(to right, #00000003, #000),
