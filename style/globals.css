@@ -388,3 +388,10 @@ header nav ul li a:hover {
   margin: 10px;
   transform: rotate(-45deg);
 }
+
+/* ---------------------why_choose_wrap--------------------- */
+.why_choose_wrap {
+  background-image: url(/images/WhyChoose/WhyChoose_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
