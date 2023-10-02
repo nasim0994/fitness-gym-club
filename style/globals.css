@@ -313,3 +313,78 @@ header nav ul li a:hover {
     font-size: 16px;
   }
 }
+
+/* ------------------featured_class-------------------- */
+.featured_class_card {
+  height: 320px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 8px 160px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.featured_class {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  object-fit: cover;
+
+  transition: all 0.4s ease;
+}
+
+.featured_class_1 {
+  background-image: linear-gradient(0deg, #0000001e, #00000026),
+    url(/images/FeaturedClass/1.jpg);
+}
+.featured_class_2 {
+  background-image: linear-gradient(0deg, #0000004d, #00000049),
+    url(/images/FeaturedClass/2.jpg);
+}
+.featured_class_3 {
+  background-image: linear-gradient(0deg, #0000005f, #00000071),
+    url(/images/FeaturedClass/3.jpg);
+}
+.featured_class_4 {
+  background-image: linear-gradient(0deg, #00000041, #0000003a),
+    url(/images/FeaturedClass/4.jpg);
+}
+.featured_class_5 {
+  background-image: linear-gradient(0deg, #00000041, #0000003a),
+    url(/images/FeaturedClass/5.jpg);
+}
+.featured_class_6 {
+  background-image: linear-gradient(0deg, #00000041, #0000003a),
+    url(/images/FeaturedClass/6.jpg);
+}
+
+.featured_class_card:hover .featured_class {
+  transform: scale(1.2);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.class_icon {
+  width: 150px;
+  height: 70px;
+  border-radius: 60px;
+  position: absolute;
+  top: 68px;
+  left: -65px;
+  background: #dddddd6e;
+  transform: rotate(45deg);
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.class_icon img {
+  width: 45px;
+  height: 35px;
+  margin: 10px;
+  transform: rotate(-45deg);
+}
