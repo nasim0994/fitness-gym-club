@@ -35,6 +35,13 @@ h2 {
   color: #ff0336;
 }
 
+.shadow {
+  box-shadow: 0 20px 27px 0px #0000000d !important;
+}
+.shadow-lg {
+  box-shadow: 0px 0px 20px 0px #00000014, 2px 3px 9px -5px #0000000d !important;
+}
+
 /* ------------------------------------------ */
 .text_bg_red {
   background-image: url(/images/text_bg_red.svg);
@@ -43,6 +50,7 @@ h2 {
   background-repeat: no-repeat;
   width: max-content;
   padding: 6px 50px;
+  color: #fff;
 }
 
 .primary-btn {
@@ -55,6 +63,7 @@ h2 {
   color: #222;
   font-weight: 600;
   position: relative;
+  width: max-content;
 }
 
 .primary-btn svg {
@@ -80,6 +89,44 @@ h2 {
   border: 1px solid #fff;
   left: 0;
   top: 0;
+}
+
+.secondary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 12px 25px;
+  background: #3a393f;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  width: max-content;
+}
+
+.secondary-btn svg {
+  font-size: 20px;
+}
+
+.secondary-btn::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.4s;
+  border: 1px solid #3a393f;
+  left: 10px;
+  top: -10px;
+}
+
+.secondary-btn:hover::after {
+  border: 1px solid #ff0336;
+  left: 0;
+  top: 0;
+}
+
+.secondary-btn:hover {
+  background: #ff0336;
 }
 
 /*---------------- Header -------------------*/
@@ -166,4 +213,103 @@ header nav ul li a:hover {
     url(/images/hero/hero2.webp);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* ------------About------------ */
+.about_wrap {
+  background-image: url(/images/about/about_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 50px 0px;
+}
+
+.about_card {
+  padding: 80px 20px;
+  border-radius: 20px 5px 20px 5px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 0px #00000014, 2px 3px 9px -5px #0000000d;
+  text-align: center;
+
+  transition: all 0.3s ease;
+}
+
+.about_card img {
+  width: 75px;
+}
+
+.about_card h2 {
+  font-size: 18px;
+  margin: 15px 0px;
+  transition: all 0.3s ease-out;
+}
+
+.about_card p {
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.about_card:hover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.about_card:hover h2,
+.about_card:hover p {
+  color: #fff;
+}
+
+.about_card_1:hover {
+  background-image: linear-gradient(0deg, #000000ad, #000000ad),
+    url(/images/about/progression_bg.jfif);
+}
+
+.about_card_2:hover {
+  background-image: linear-gradient(0deg, #000000ad, #000000ad),
+    url(/images/about/workout_bg.jfif);
+}
+
+.about_card_3:hover {
+  background-image: linear-gradient(0deg, #000000ad, #000000ad),
+    url(/images/about/nutritions_bg.jfif);
+}
+
+.about_right_img {
+  background-image: url(/images/about/runbg.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 240px;
+
+  position: absolute;
+  right: 50px;
+}
+
+.about_run_text_img {
+  background-image: url(/images/about/run_text.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 69px;
+
+  position: absolute;
+  left: 50px;
+}
+
+@media only screen and (min-width: 640px) {
+  .about_card h2 {
+    font-size: 26px;
+  }
+  .about_card p {
+    font-size: 16px;
+  }
 }
