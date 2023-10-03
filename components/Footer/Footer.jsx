@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="py-20">
       <div className="container">
         <div className="grid md:grid-cols-4">
-          <div className="col-span-2">
+          <div className="md:col-span-2">
             <Link href="/">
               <Image
                 src="/images/logo/logo.png"
