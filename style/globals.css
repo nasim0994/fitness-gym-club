@@ -441,3 +441,13 @@ header nav ul li a:hover {
   padding: 50px 0px;
   color: #fff;
 }
+
+/* ------------------Contact---------------- */
+
+.contact_wrap {
+  background-image: url(/images/contact_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px;
+  color: #fff;
+}

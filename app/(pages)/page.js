@@ -1,5 +1,6 @@
 import About from "@/components/HomeComponents/About/About";
 import Calculate from "@/components/HomeComponents/Calculate/Calculate";
+import Contact from "@/components/HomeComponents/Contact/Contact";
 import FeaturedClass from "@/components/HomeComponents/FeaturedClass/FeaturedClass";
 import Gallery from "@/components/HomeComponents/Gallery/Gallery";
 import Hero from "@/components/HomeComponents/Hero/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Gallery />
       <Calculate />
       <Pricing />
+      <Contact />
     </>
   );
 }
