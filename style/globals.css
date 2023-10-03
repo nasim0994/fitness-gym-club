@@ -367,6 +367,10 @@ header nav ul li a:hover {
   filter: grayscale(0%);
 }
 
+.featured_class_card:hover .class_icon {
+  background: #fff;
+}
+
 .class_icon {
   width: 150px;
   height: 70px;
@@ -380,6 +384,8 @@ header nav ul li a:hover {
   display: flex;
   justify-content: end;
   align-items: center;
+
+  transition: 0.3s ease;
 }
 
 .class_icon img {

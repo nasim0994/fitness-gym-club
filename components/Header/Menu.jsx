@@ -1,25 +1,25 @@
-import Link from "next/link";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 export default function Menu() {
   return (
     <>
       <li>
-        <Link href="">Home</Link>
+        <ActiveLink href="/">Home</ActiveLink>
       </li>
       <li>
-        <Link href="">About</Link>
+        <ActiveLink href="/about">About</ActiveLink>
       </li>
       <li>
-        <Link href="">gallery</Link>
+        <ActiveLink href="/gallery">gallery</ActiveLink>
       </li>
       <li>
-        <Link href="">Schedule</Link>
+        <ActiveLink href="/schedule">Schedule</ActiveLink>
       </li>
       <li>
-        <Link href="">Contact</Link>
+        <ActiveLink href="/contact">Contact</ActiveLink>
       </li>
       <li>
-        <Link href="">Blog</Link>
+        <ActiveLink href="/blog">Blog</ActiveLink>
       </li>
     </>
   );

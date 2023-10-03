@@ -28,7 +28,9 @@ export default function Header() {
           <nav>
             <button
               onClick={() => setMobileMenu(false)}
-              className={`menu_overlay ${mobileMenu && "menu_overlay_show"}`}
+              className={`lg:hidden menu_overlay ${
+                mobileMenu && "menu_overlay_show"
+              }`}
             ></button>
 
             <ul
@@ -57,15 +59,9 @@ export default function Header() {
               <AiOutlineMenu />
             </button>
 
-            <Link
-              href=""
-              className="text-[21px] hover:text-primary duration-300"
-            >
+            <Link href="" className="text-2xl hover:text-primary duration-300">
               <VscAccount />
             </Link>
-            <button className="text-xl hover:text-primary duration-300">
-              <FiSettings />
-            </button>
             <Link href="" className="header_btn hidden sm:flex">
               <BiSolidPlusSquare />
               JOIN CLASS NOW

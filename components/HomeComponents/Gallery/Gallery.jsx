@@ -14,7 +14,7 @@ export default function Gallery() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 mt-10">
+        <div className="grid md:grid-cols-2 gap-4 mt-10 lg:mx-20">
           <div>
             <div>
               <Image
