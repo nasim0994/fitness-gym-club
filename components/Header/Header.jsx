@@ -12,7 +12,7 @@ export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <header className="bg-accent py-4 text-base-100 sticky top-0 z-50">
+    <header className="bg-accent py-5 text-base-100 sticky top-0 z-50">
       <div className="w-[90%] 2xl:w-[1400px] mx-auto">
         <div className="flex justify-between items-center">
           <Link href="/">
@@ -36,7 +36,7 @@ export default function Header() {
             <ul
               className={`menu ${
                 mobileMenu && "menu_show"
-              } lg:flex gap-4 lg:gap-6 text-[15px] font-medium`}
+              } lg:flex gap-4 lg:gap-6 font-medium`}
             >
               <div className="flex justify-end lg:hidden mb-6">
                 <button
@@ -59,7 +59,10 @@ export default function Header() {
               <AiOutlineMenu />
             </button>
 
-            <Link href="" className="text-2xl hover:text-primary duration-300">
+            <Link
+              href=""
+              className="text-[26px] hover:text-primary duration-300"
+            >
               <VscAccount />
             </Link>
             <Link href="" className="header_btn hidden sm:flex">

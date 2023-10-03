@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function FeaturedClass() {
   return (
-    <section className="py-20">
+    <section className="py-20" id="schedule">
       <div className="container">
         <div className="text-center">
           <h2 className="text_bg_red mx-auto">OUR FEATURED CLASS</h2>
           <h2 className="text-4xl mt-5">
-            We Are Offering Best Flexible Classes
+            We Are Offering Best <br /> Flexible Classes
           </h2>
 
           <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -15,7 +15,7 @@ export default function FeaturedClass() {
               <div className="featured_class featured_class_1"></div>
               <div className="class_icon">
                 <Image
-                  src="/images/about/pt.png"
+                  src="/images/class/c.png"
                   alt=""
                   width={500}
                   height={500}
@@ -34,7 +34,7 @@ export default function FeaturedClass() {
               <div className="featured_class featured_class_2"></div>
               <div className="class_icon">
                 <Image
-                  src="/images/about/pt.png"
+                  src="/images/class/k.png"
                   alt=""
                   width={500}
                   height={500}
@@ -53,7 +53,7 @@ export default function FeaturedClass() {
               <div className="featured_class featured_class_3"></div>
               <div className="class_icon">
                 <Image
-                  src="/images/about/pt.png"
+                  src="/images/class/p.png"
                   alt=""
                   width={500}
                   height={500}
@@ -72,7 +72,7 @@ export default function FeaturedClass() {
               <div className="featured_class featured_class_4"></div>
               <div className="class_icon">
                 <Image
-                  src="/images/about/pt.png"
+                  src="/images/class/m.png"
                   alt=""
                   width={500}
                   height={500}
@@ -91,7 +91,7 @@ export default function FeaturedClass() {
               <div className="featured_class featured_class_5"></div>
               <div className="class_icon">
                 <Image
-                  src="/images/about/pt.png"
+                  src="/images/class/ma.png"
                   alt=""
                   width={500}
                   height={500}
@@ -110,7 +110,7 @@ export default function FeaturedClass() {
               <div className="featured_class featured_class_6"></div>
               <div className="class_icon">
                 <Image
-                  src="/images/about/pt.png"
+                  src="/images/class/w.png"
                   alt=""
                   width={500}
                   height={500}

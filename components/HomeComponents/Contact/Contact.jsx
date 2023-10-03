@@ -3,7 +3,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 export default function Contact() {
   return (
-    <section className="contact_wrap">
+    <section className="contact_wrap" id="contact">
       <div className="container">
         <h2 className="text-5xl">Need a Fitness Trainer?</h2>
         <h3 className="mt-4 font-bold text-2xl">

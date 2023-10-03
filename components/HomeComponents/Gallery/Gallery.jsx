@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <section className="py-20">
+    <section className="py-20" id="gallery">
       <div className="container">
         <div className="text-center">
           <h2 className="text_bg_red mx-auto">GYMAT GALLERY</h2>
@@ -18,7 +18,7 @@ export default function Gallery() {
           <div>
             <div>
               <Image
-                src="/images/gallery/1.jfif"
+                src="/images/gallery/1.jpg"
                 alt=""
                 className="w-full h-80 rounded"
                 width={500}
@@ -34,7 +34,7 @@ export default function Gallery() {
                 height={500}
               />
               <Image
-                src="/images/gallery/3.jfif"
+                src="/images/gallery/3.jpg"
                 alt=""
                 className="w-full h-52 rounded"
                 width={500}

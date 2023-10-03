@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="hidden xl:block"></div>
 
             <div>
-              <p className="text_bg_red mx-auto sm:mx-0">FIND YOUR ENERGY</p>
+              <h2 className="text_bg_red mx-auto sm:mx-0">FIND YOUR ENERGY</h2>
               <div className="mt-6 text-center sm:text-start text-4xl sm:text-5xl">
                 <h2>MAKE YOUR BODY</h2>
                 <h2 className="mt-4">FIT & PERFECT</h2>

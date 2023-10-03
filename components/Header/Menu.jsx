@@ -7,16 +7,19 @@ export default function Menu() {
         <ActiveLink href="/">Home</ActiveLink>
       </li>
       <li>
-        <ActiveLink href="/about">About</ActiveLink>
+        <ActiveLink href="#about">About</ActiveLink>
       </li>
       <li>
-        <ActiveLink href="/gallery">gallery</ActiveLink>
+        <ActiveLink href="#schedule">Schedule</ActiveLink>
       </li>
       <li>
-        <ActiveLink href="/schedule">Schedule</ActiveLink>
+        <ActiveLink href="#gallery">gallery</ActiveLink>
       </li>
       <li>
-        <ActiveLink href="/contact">Contact</ActiveLink>
+        <ActiveLink href="#pricing">Pricing</ActiveLink>
+      </li>
+      <li>
+        <ActiveLink href="#contact">Contact</ActiveLink>
       </li>
       <li>
         <ActiveLink href="/blog">Blog</ActiveLink>

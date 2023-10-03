@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 export default function About() {
   return (
-    <section className="about_wrap ">
+    <section className="about_wrap">
       <div className="container">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 -mt-28">
           <div className="about_card about_card_1">
@@ -43,7 +43,7 @@ export default function About() {
               height={500}
             />
             <h2>NUTRITIONS</h2>
-            <p>
+            <p id="about">
               Our team will work with you to create a personalized meal plan
               that helps you reach your specific health goals.
             </p>

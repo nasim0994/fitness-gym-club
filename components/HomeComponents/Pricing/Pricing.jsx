@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 export default function Pricing() {
   return (
-    <section className="py-20 pricing_wrap">
+    <section className="py-20 pricing_wrap" id="pricing">
       <div className="container">
         <div className="text-center">
           <h2 className="text_bg_red mx-auto">PRICING CHART</h2>
