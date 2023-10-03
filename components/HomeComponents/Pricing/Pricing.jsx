@@ -9,7 +9,7 @@ export default function Pricing() {
         <div className="text-center">
           <h2 className="text_bg_red mx-auto">PRICING CHART</h2>
           <h2 className="text-4xl mt-4">Exclusive Pricing Plan</h2>
-          <p className="mt-4 w-1/2 mx-auto text-neutral-content">
+          <p className="mt-4 md:w-1/2 mx-auto text-neutral-content">
             FITNESS GYM CLUB an unknown printer took a galley of type and
             scrambled make a type specimen book.
           </p>

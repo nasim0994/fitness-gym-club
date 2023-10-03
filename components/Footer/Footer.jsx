@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="mt-6 md:mt-0">
             <h2 className="text-2xl">Our Classes</h2>
 
             <ul className="mt-4 text-neutral-content text-lg flex flex-col gap-2">
@@ -78,7 +78,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="mt-6 md:mt-0">
             <h2 className="text-2xl">Working Hours</h2>
 
             <ul className="mt-4 text-neutral-content text-lg flex flex-col gap-2">
