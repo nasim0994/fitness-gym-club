@@ -295,7 +295,7 @@ header nav ul li a:hover {
 
 /* -------Hero --------------*/
 .hero_wrap {
-  background-image: linear-gradient(to right, #00000046, #000000f5),
+  background-image: linear-gradient(to right, #00000053, #000000),
     url(/images/hero/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
